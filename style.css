@@ -1,0 +1,99 @@
+header#q44 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+    float: right;
+}
+
+header#q44 img {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+header#q44 h2 {
+        float: right;
+}
+
+nav {
+    background-color: #ccc;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+div {
+    min-width:600px;
+    max-width: 960px;
+    background-color: #ccc;
+    margin: 20px auto 0;
+    padding: 10px;
+}
+
+ul li img {
+    width: 500px;
+}
+
+table thead tr {
+    background-color: red;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: navy;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: red;
+}
+
+img[usemap] {
+    width: 500px;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+body {
+    margin: 0;
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 100%) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div#as11 {
+        order: -1;
+    }
+}
